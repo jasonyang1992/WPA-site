@@ -1,0 +1,217 @@
+<!doctype hmtl>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This is a tutorial website for basic webprogramming">
+	<meta name="keywords" content="C++, Java, HTML, CSS, Tutorial">
+	<title>WPA-Home Page</title>
+	<style>
+		body{
+		  width:1280px;
+		  background-color:#D8F8E8;
+		  margin-left:auto;
+		  margin-right:auto;
+		}
+		.bodycolor{
+		  float:left;
+		  background-color:#D8F8E8;
+		}
+		.title h1{
+		  text-align: center;
+		  font-size:52px;
+			color:#006B00;
+		  background-color:#D8F8E8;
+		}
+		.toolbar{
+		  float:left;
+		  width:20%;
+		}
+		.toolbar table tr td p{
+		  color:#00CC66;
+		  font-size:44px;
+		  font-weight: bold;
+		  text-decoration: underline;
+		}
+		.toolbar table tr td a{
+		  text-decoration:none;
+		}
+		.toolbar table tr td a p{
+		  color:#00CC66;
+		  font-size:24px;
+		  font-weight: normal;
+		  text-decoration: none;
+		}
+		.toolbar table tr td a p:hover{
+		  color:white;
+		  background-color:#B2F0D1;
+		}
+		.section{
+			float:right;
+			width:79%;
+			border-left:1px solid #597059;
+		}
+		.description{
+			width:90%;
+			text-align:justify;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		.description p{
+			color:#507E50;
+		}
+		.leftdescription{
+			float:left;
+			width:65%;
+		}
+		.leftdescription h2{
+			background-color:#B2F0D1;
+			color:#00CC66;
+			padding-top:5px;
+			padding-bottom:5px;
+		}
+		.leftdescription p{
+			width:95%;
+			margin-left: auto;
+			margin-right: auto;
+			color:#507E50;
+			text-align: justify;
+		}
+		.rightdescription{
+			float:left;
+			width:30%;
+		}
+		.rightdescription img{
+			position: relative;
+			left:30px;
+			top:20px;
+			margin-bottom: 30px;
+		}
+		.footer{
+		  float:left;
+		  width:100%;
+		  height:40px;
+		  border-top:1px solid black;
+		  background-color:#D8F8E8;
+		}
+		.footer p{
+		  text-align:center;
+		  font-size:16px;
+			color:#507E50;
+		}
+	</style>
+</head>
+
+<div class="title">
+	<h1>WebProgramming Academy</h1>
+</div>
+
+<div class="bodywrapper">
+
+<div class="bodycolor">
+
+		<div class="toolbar"> <!-- toolbar navigation -->
+			<table>
+				<tr>
+					<td>
+					<p>The Tool Bar</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="index.html" title="Home"><p>Home</p></a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="#" title="Hyper Text Mark-up Language"><p>HTML</p></a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="#" title="Cascade Style Sheet"><p>CSS</p></a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="#" title="JavaScript"><p>JavaScript</p></a>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="section">
+
+			<div class="description">
+				<p>
+		      Welcome to WebProgramming Academy, this web page is the exploration of web
+		      programming through HTML, CSS, and JavaScript. This website is designed for beginner
+		      programmers or people who have taken interest in making their own personal website. If you
+		      have little to no experience with web programming, this website is for you to explore and
+		      learn. When exploring this website, please look into HTML first before you go to CSS or
+		      JavaScript. Individually they are web-programming languages however HTML is the basic
+		      foundation for web programming.
+		    </p>
+			</div>
+
+			<div class="leftdescription">
+				<h2>HTML (Hyper Text Markup Language)</h2>
+		    <p>
+		      HTML (Hyper Text Markup Language) is a programming language that communicates with the
+		      web browser to display content on to the web browser. HTML is described by HTML elements to
+		      document how the web page will look like. All elements have angle brackets with an opening
+		      and closing brackets. The elements can be altered by attributes. Attributes modify how the
+		      element will be displayed on to the web page.
+		    </p>
+			</div>
+
+			<div class="rightdescription">
+				<img src="Assets/indexhtml.png">
+			</div>
+
+			<div class="leftdescription">
+				<h2>CSS (Cascade Style Sheet)</h2>
+		    <p>
+		      CSS (Cascade Style Sheet) is a programming language that interacts with HTML elements to be
+		      displayed in a style. HTML only displays content on to the web browser but if you want to add
+		      color onto the text or alter the text font, CSS coding will be needed. It is possible to code
+		      the coloring and font size in HTML however it will take too long for up scaled large website
+		      to be modified. CSS take advantage of putting all the code into one file and display style to
+		      all HTML files.
+		    </p>
+			</div>
+
+			<div class="rightdescription">
+			  <img src="Assets/indexcss.png">
+			</div>
+
+			<div class="leftdescription">
+				<h2>JavaScript</h2>
+		    <p>
+		      JavaScript is a programming language that determines the behavior of the web browser. The
+		      way it determines the behavior the web page is how the user interacts with the web browser.
+		      One example of JavaScript is data validation. If the user types a letter when asked for zip
+		      code, JavaScript will be prompt to tell the user that letters are not allowed in the zip code
+		      field and only numbers are valid.
+		    </p>
+			</div>
+
+			<div class="rightdescription">
+				<img src="Assets/indexJS.png">
+			</div>
+
+		</div>
+
+    <footer> <!-- copy right logo -->
+			<div class="footer">
+				<p>Copyright &copy; 2015-2016</p>
+			</div>
+		</footer>
+
+</div> <!-- bodycolor -->
+
+</div> <!-- bodywrapper -->
+
+</body>
+
+</html>
