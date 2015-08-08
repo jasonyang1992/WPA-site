@@ -31,6 +31,11 @@ body{
   width:14.9%;
   margin-top: 30px;
 }
+.toolbar table tr td{
+  font-size:24px;
+  color:#00CC66;
+  font-weight:bold;
+}
 .toolbar table tr td p{
   color:#00CC66;
   font-size:43px;
