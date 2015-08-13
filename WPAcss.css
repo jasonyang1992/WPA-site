@@ -70,6 +70,13 @@ body{
   color:#00CC66;
   font-size:44px;
 }
+.description h2{
+  background-color:#B2F0D1;
+  color:#00CC66;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-size:28px;
+}
 .description p{
   color:#507E50;
   font-size:18px;
