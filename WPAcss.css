@@ -96,6 +96,12 @@ body{
   padding-bottom:5px;
   font-size:28px;
 }
+.leftdescription h3{
+  background-color:#B2F0D1;
+  color:#00CC66;
+  padding-top:5px;
+  padding-bottom:5px;
+}
 .leftdescription p{
   width:95%;
   margin-left: auto;
