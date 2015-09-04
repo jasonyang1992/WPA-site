@@ -110,6 +110,11 @@ body{
   text-align: justify;
   font-size:18px;
 }
+.leftdescription ul{
+  list-style: none;
+  font-size:18px;
+  color:#507E50;
+}
 .rightdescription{
   float:left;
   width:30%;
