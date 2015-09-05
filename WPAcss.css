@@ -131,6 +131,22 @@ body{
   top:20px;
   margin-bottom: 30px;
 }
+.chapternav{
+  width:100%;
+  float:left;
+}
+.chapternav table{
+  margin:auto;
+}
+.chapternav table tr td a{
+  text-decoration: none;
+  font-size: 24px;
+  color:#00CC66;
+}
+.chapternav table tr td a p:hover{
+  color:white;
+  background-color:#B2F0D1;
+}
 .footer{
   float:left;
   width:100%;

@@ -6,7 +6,7 @@
 	<meta name="description" content="This is a tutorial website for basic webprogramming">
 	<meta name="keywords" content="C++, Java, HTML, CSS, Tutorial">
 	<link rel="stylesheet" href="WPAcss.css" type="text/css">
-	<title>WPA-CSS CH01</title>
+	<title>WPA-CSS CH02</title>
 </head>
 
 <div class="title">
@@ -62,66 +62,58 @@
 		<div class="section">
 
 			<div class="description"> <!-- basic description of the chapter -->
-				<h1>Chapter One: Introduction to CSS</h1>
+				<h1>Chapter Two: CSS Selectors</h1>
 					<p>
-						CSS (Cascade Style Sheet) is a programming language that interacts with HTML elements to be displayed
-						in a style. HTML only displays content on to the web browser but if you want to add color onto the text
-						or alter the text font, CSS coding will be needed. It is possible to code the coloring and font size in
-						HTML however it will take too long for up scaled large website to be modified. CSS take advantage of
-						putting all the code into one file and display style to all HTML files.
+						There are three ways you can use CSS to manipulate HTML elements. Element selector, id selector,
+						and class selector are the three ways you can target the HTML element. Element selector focus on all
+						elements, therefore all elements with similar name will have all the attributes of the element selector.
+						Id selector uses the id attribute which can only be used once as a selector and will only target one spot.
+						The class selector is like the id selector therefore it can be used as many times as you want.
 					</p>
 			</div>
 
 			<div class="leftdescription">
-				<h2>Internal CSS</h2>
+				<h2>Element Selector</h2>
 					<p>
-						If you plan to hard code in HTML, you will need to tell the HTML file that there will be CSS codes
-						implmented into the HTML file. In the HTML tutorial we discussed about the Heading element which gives
-						a description of the HTML file. We will write our CSS code inside the Heading element using the sub-element
-						style.
+						The element selector starts with the name of the element you want to alter and then an opening and closing
+						curly brackets. Inside the curly brackets contains all the attribute syntax.
 					</p>
 			</div>
 
 			<div class="rightdescription">
-				<img src="Assets/css1/css1internalcss.png">
+				<img src="Assets/css2/css2elementselector.png">
 			</div>
 
 			<div class="leftdescription">
-				<h2>External CSS</h2>
+				<h2>Id Selector</h2>
 					<p>
-						External CSS is a separate file that styles the HTML file. It is similar to internal CSS with the exception
-						of having an additional file. The external CSS file does not require you to insert the style element however
-						in the HTML file where the heading content is.
+						The id selector starts with the # and then the name of the id. After that, it will have the opening
+						and closing curly brackets. Inside the curly brackets contains all the attribute syntax.
 					</p>
 
 					<p>
-						It is necessary because it links the two files together. Once you have completed that. In the CSS document,
-						you can write all the CSS code into the document to style the HTML file. Similar to HTML, .css is a necessary
-						extension for the file name because it tells the web browser that this is a CSS file.
+						You can also add element selectors after the name of the id selector to target deeper elements.
 					</p>
 			</div>
 
 			<div class="rightdescription">
-				<img src="Assets/css1/css1externalcss1.png">
-				<img src="Assets/css1/css1externalcss2.png">
+				<img src="Assets/css2/css2idselector.png">
 			</div>
 
 			<div class="leftdescription">
-				<h2>CSS syntax</h2>
+				<h2>Class Selector</h2>
 					<p>
-						<ul>
-							<li><b>H1</b> is the selector</li>
-							<li><b>color:blue</b> is a declaration</li>
-							<li><b>color</b> is the property</li>
-							<li><b>blue</b> is the value</li>
-							<li><b>font-size</b> is the property</li>
-							<li><b>12</b> is the value</li>
-						</ul>
+						The class selector starts with the . and then the name of the class. After that, it will have the opening
+						and closing curly brackets. Inside the curly brackets contains all the attribute syntax.
+					</p>
+
+					<p>
+						You can also add element selectors after the name of the id selector to target deeper elements.
 					</p>
 			</div>
 
 			<div class="rightdescription">
-				<img src="Assets/css1/css1csssyntax.png">
+				<img src="Assets/css2/css2classselector.png">
 			</div>
 
 			<div class="chapternav">
@@ -136,6 +128,7 @@
 					</tr>
 				</table>
 			</div>
+
 		</div>
 
 		<footer> <!-- copy right logo -->
