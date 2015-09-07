@@ -6,7 +6,7 @@
 	<meta name="description" content="This is a tutorial website for basic webprogramming">
 	<meta name="keywords" content="C++, Java, HTML, CSS, Tutorial">
 	<link rel="stylesheet" href="WPAcss.css" type="text/css">
-	<title>WPA-CSS CH02</title>
+	<title>WPA-CSS CH04</title>
 </head>
 
 <div class="title">
@@ -77,58 +77,51 @@
 		<div class="section">
 
 			<div class="description"> <!-- basic description of the chapter -->
-				<h1>Chapter Two: CSS Selectors</h1>
+				<h1>Chapter Four: Margin, Padding, and Float</h1>
 					<p>
-						There are three ways you can use CSS to manipulate HTML elements. Element selector, id selector,
-						and class selector are the three ways you can target the HTML element. Element selector focus on all
-						elements, therefore all elements with similar name will have all the attributes of the element selector.
-						Id selector uses the id attribute which can only be used once as a selector and will only target one spot.
-						The class selector is like the id selector therefore it can be used as many times as you want.
+						Margin and padding properties allow you to shift text or images around the web page. It can be used to make
+						other text overlap each other or to organize the web page to be more attractive. Float allows elements to not be
+						overlap by each other.
 					</p>
 			</div>
 
 			<div class="leftdescription">
-				<h2>Element Selector</h2>
+				<h2>Margin Property</h2>
 					<p>
-						The element selector starts with the name of the element you want to alter and then an opening and closing
-						curly brackets. Inside the curly brackets contains all the attribute syntax.
-					</p>
-			</div>
-
-			<div class="rightdescription">
-				<img src="Assets/css2/css2elementselector.png">
-			</div>
-
-			<div class="leftdescription">
-				<h2>Id Selector</h2>
-					<p>
-						The id selector starts with the # and then the name of the id. After that, it will have the opening
-						and closing curly brackets. Inside the curly brackets contains all the attribute syntax.
+						The margin property can shift texts and images away or closer to each other. There are four types of margin.
+						Margin-top, margin-left, margin-right and margin-bottom can be all be used. The value for the margin property
+						can be either percentage(%) or it can be # of px.
+						<ul>
+							<li><strong>Margin-top</strong> will shift the text or image to the bottom.</li>
+							<li><strong>Margin-bottom</strong> will shift the text or image to the top.</li>
+							<li><strong>Margin-left</strong> will shift the text or image to the right.</li>
+							<li><strong>Margin-right</strong> will shift the text or image to the left.</li>
+						</ul>
 					</p>
 
-					<p>
-						You can also add element selectors after the name of the id selector to target deeper elements.
-					</p>
-			</div>
-
-			<div class="rightdescription">
-				<img src="Assets/css2/css2idselector.png">
 			</div>
 
 			<div class="leftdescription">
-				<h2>Class Selector</h2>
+				<h2>Padding Property</h2>
 					<p>
-						The class selector starts with the . and then the name of the class. After that, it will have the opening
-						and closing curly brackets. Inside the curly brackets contains all the attribute syntax.
-					</p>
-
-					<p>
-						You can also add element selectors after the name of the id selector to target deeper elements.
+						Padding creates a clear background that shift the text or image similar to margin however the padding's background
+						color is enlarged while the margin's background color is not. Just like margin, there are padding-top, padding-bottom,
+						padding-left, and padding-right.
 					</p>
 			</div>
 
-			<div class="rightdescription">
-				<img src="Assets/css2/css2classselector.png">
+			<div class="leftdescription">
+				<h2>Float property</h2>
+					<p>
+						This property will specifies the element to be on top of another element. If both element have the
+						float property, they will not stack on each other, instead they will be side by side.
+					</p>
+				<h3>Values of Float</h3>
+					<ul>
+						<li>left(Commonly used)</li>
+						<li>right</li>
+						<li>none</li>
+					</ul>
 			</div>
 
 			<div class="chapternav">
