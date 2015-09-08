@@ -26,6 +26,7 @@ body{
   margin-bottom:0px;
   border-bottom:1px solid black;
 }
+/* toolbar css start */
 .toolbar{
   float:left;
   width:14.9%;
@@ -56,6 +57,7 @@ body{
   color:white;
   background-color:#B2F0D1;
 }
+/* toolbar css end */
 .section{
   float:right;
   width:85%;
